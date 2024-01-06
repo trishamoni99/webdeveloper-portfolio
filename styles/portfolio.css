@@ -63,9 +63,9 @@ nav a {
 /*header related style */
 .header {
     background-color: #Fff8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png') ;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -186,7 +186,24 @@ nav a {
  /* footer style */
  footer{
     display: flex;
+    gap:100px;
     background-color: #FfF8F3;
     margin-top: 100px;
     padding: 130px 200px;
  }
+.footer-column{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0;
+    width: 100%;
+}
